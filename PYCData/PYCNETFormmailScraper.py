@@ -30,7 +30,7 @@ time.sleep(3)
 
 
 try:
- driver.find_elements(By.ID , "divrowy") # Finds the mail elements
+ driver.find_elements(By.ID , "divrowy") # Finds the mail elements, yes, the ID for all of them is divrowy.
  driver.find_elements(By.CLASS_NAME , "col-md-6") # Finds the elements within the mail.
  title = WebDriverWait(driver, 10).until(EC.visibility_of_all_elements_located((By.CLASS_NAME , "forumlink")))
  pyc = WebDriverWait(driver, 10).until(EC.visibility_of_all_elements_located((By.CLASS_NAME , "col-md-4")))

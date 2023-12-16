@@ -25,3 +25,11 @@ Unfortune-fucking-ly, there's some issues with this 6-hour project:
 While I will work to resolve these problems, I am still learning my way around these controls, so do expect the fix to be veeeeerrrryyyy far into the future. At large, the scraper will work.
 
 Plus this project is really just something to keep my Python skills kicking (aka, having too much fun and not writing or drawing) , so ignore the shitty barf code, and if you wish, feel free to improve on it :D
+
+### Extras -- Shovel
+
+I added some extras in, which is the primitive code for a google search scraper which helped me to get down the basics to make this scraper.
+
+Please feel free to use, but it's mainly tailored for a specific search I needed for another project I have already finished.
+
+Do note the results display, unlike the main project, doesn't work, but I'll probably only work on fixing it when I feel like it as well.

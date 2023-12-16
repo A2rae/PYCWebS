@@ -14,7 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time # Not part of Selenium, this is a base Python module :)
 
 # The URL, change to your convienience.
-driver.get("https://www2.pyc.edu.hk/pycnet/index.php")
+driver.get("") # Paste the PYCnet login page web address here
 
 # This part gets the login box on the front page, and inputs the text into the box.
 element = driver.find_element(By.ID , "username")
